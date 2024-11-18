@@ -33,7 +33,7 @@ def get_upcoming_birthdays(users):
 
     return upcoming_birthdays
 
-# Тестовий список користувачів
+# Тестовий список користувачів (дати обрані на середину листопада 2024)
 users = [
     {"name": "John Doe", "birthday": "1985.11.23"},
     {"name": "Jane Smith", "birthday": "1990.11.27"},

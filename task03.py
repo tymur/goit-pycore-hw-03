@@ -14,7 +14,7 @@ def normalize_phone(phone_number):
     
     return cleaned_number
 
-# Введення номера користувачем
+# Введення номера користувачем (перевірка роботи функції)
 user_number = input("Введіть номер телефону у будь-якому форматі: ")
 normalized_number = normalize_phone(user_number)
 print(f"Нормалізований номер телефону: {normalized_number}")

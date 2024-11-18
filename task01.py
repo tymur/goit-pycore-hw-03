@@ -10,7 +10,7 @@ def get_days_from_today(date):
     except ValueError:
         raise ValueError("Неправильний формат дати. Використовуйте формат 'РРРР-ММ-ДД'.")
 
-# Введення дати користувачем
+
 try:
     user_date = input("Введіть дату у форматі 'РРРР-ММ-ДД': ")
     result = get_days_from_today(user_date)
